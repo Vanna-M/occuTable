@@ -1,0 +1,36 @@
+.button{
+    background-color: #81BEF7;
+    border: 2px solid #000000;
+    color: black;
+    appearance: button;
+    border-radius: 12px;
+    padding: 10px;
+}
+
+.button:hover{
+    background-color: #A9E2F3;
+}
+
+.button:hover:after{
+    content: "*";
+}
+
+.button:hover:before{
+    content: "*";
+}
+
+.header{
+    text-align: center;
+    background-color: #A9E2F3;
+    border: 2px solid #000000;
+    color: black;
+
+}
+
+.body{
+    border: 2px solid #000000;
+}
+
+<!--
+A{text-decoration:none}
+-->
